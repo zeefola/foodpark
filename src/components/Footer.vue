@@ -65,11 +65,10 @@
                                                         </div>
                                                         <div class="footer-contant">
                                                             <ul>
-                                                                <li><a href="#">about us</a></li>
-                                                                <li><a href="#">contact us</a></li>
-                                                                <li><a href="#">terms & conditions</a></li>
-                                                                <li><a href="#">returns & exchanges</a></li>
-                                                                <li><a href="#">shipping & delivery</a></li>
+                                                                <router-link to="/about" tag="li"> <a>about us </a></router-link>
+                                                               <router-link to="/contact" tag="li"> <a> contact us </a></router-link>
+                                                                <router-link to="/terms-and-conditions" tag="li"> <a> terms & conditions </a></router-link>
+                                                                <li><a href="https://blog.foodpark.ng" target="_blank">Blog</a></li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -81,11 +80,11 @@
                                                         </div>
                                                         <div class="footer-contant">
                                                             <ul>
-                                                                <li><a href="#">store location</a></li>
-                                                                <li><a href="#"> my account</a></li>
-                                                                <li><a href="#"> orders tracking</a></li>
-                                                                <li><a href="#"> size guide</a></li>
-                                                                <li><a href="#">FAQ </a></li>
+                                                                <router-link to="/store-locations" tag="li"> <a>store location </a></router-link>
+                                                                <router-link to="/register" tag="li"><a> Register </a></router-link>
+                                                                <router-link to="/login" tag="li"><a> Login </a></router-link>
+                                                                <router-link to="/faq" tag="li"> <a> FAQ </a></router-link>
+                                                                
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -100,7 +99,7 @@
                                                                 <li><i class="fa fa-map-marker"></i><span>big deal store demo store <br> <span> india-3654123</span></span></li>
                                                                 <li><i class="fa fa-phone"></i><span>call us: 123-456-7898</span></li>
                                                                 <li><i class="fa fa-envelope-o"></i><span>email us: support@bigdeal.com</span></li>
-                                                                <li><i class="fa fa-fax"></i><span>fax 123456</span></li>
+                                                                
                                                             </ul>
                                                         </div>
                                                     </div>

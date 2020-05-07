@@ -3,6 +3,11 @@ import Router from 'vue-router'
 import Welcome from './views/Welcome.vue'
 import Faq from './views/Faq.vue'
 import Contact from './views/Contact.vue'
+import Login from './views/Login.vue'
+import Register from './views/Register.vue'
+import PasswordReset from './views/PasswordReset.vue'
+import OrderSuccess from './views/OrderSuccess.vue'
+import Cart from './views/Cart.vue'
 
 Vue.use(Router)
 
@@ -24,6 +29,31 @@ export default new Router({
       path: '/contact',
       name: 'contact',
       component: Contact
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: Login
+    },
+    {
+      path: '/register',
+      name: 'register',
+      component: Register
+    },
+    {
+      path: '/password-reset',
+      name: 'password-reset',
+      component: PasswordReset
+    },
+    {
+      path: '/order-success',
+      name: 'order-success',
+      component: OrderSuccess
+    },
+    {
+      path: '/cart',
+      name: 'cart',
+      component: Cart
     },
     {
       path: '/about',

@@ -29,11 +29,12 @@
                     <div class="top-header-right">
                         <div class="top-menu-block">
                             <ul>
-                                <li><a href="#">gift cards</a></li>
-                                <li><a href="#">Notifications</a></li>
-                                <li><a href="#">help & contact</a></li>
-                                <li><a href="#">track order</a></li>
-                                <li><a href="#">shipping </a></li>
+                                 <router-link to="/store-locations" tag="li"> <a>Store location</a></router-link>
+                               
+                                <router-link to="/dashboard" tag="li"> <a>My Account</a></router-link>
+                                <router-link to="/contact" tag="li"> <a>help & contact</a></router-link>
+                                <router-link to="/faq" tag="li"> <a>FAQ</a></router-link>
+                                
                                
                             </ul>
                         </div>
@@ -88,9 +89,10 @@
                                 </ul>
                             </div>
                             <div class="brand-logo">
-                                <a href="#">
-                                    <img src="/assets/images/layout-6/logo/logo.png" class="img-fluid  " alt="logo-header">
-                                </a>
+                                <router-link to="/" >
+                                      <img src="/assets/images/layout-6/logo/logo.png" class="img-fluid  " alt="logo-header">
+                                </router-link>
+                                
                             </div>
                         </div>
                         <div class="menu-right">
@@ -103,268 +105,25 @@
                                         </li>
                                         <!--HOME-->
                                         <li>
-                                            <a href="#">Home</a>
+
+                                            <router-link to="/" > Home </router-link>
+                                            
                                 
                                         </li>
                                         <!--HOME-END-->
 
-                                        <!--SHOP-->
-                                        <li>
-                                            <a href="#">shop</a>
-                                            <ul>
-                                                <li><a href="category-page(left-sidebar).html">left sidebar</a></li>
-                                                <li><a href="category-page(right-sidebar).html">right sidebar</a></li>
-                                                <li><a href="category-page(no-sidebar).html">no sidebar</a></li>
-                                                <li><a href="category-page(sidebar-popup).html">sidebar popup</a></li>
-                                                <li><a href="category-page(metro).html">metro <span class="new-tag">new</span></a></li>
-                                                <li><a href="category-page(full-width).html">full width <span class="new-tag">new</span></a></li>
-                                                <li><a href="category-page(infinite-scroll).html">infinite scroll</a></li>
-                                                <li><a href=category-page(3-grid).html>3 grid</a></li>
-                                                <li><a href="category-page(6-grid).html">6 grid</a></li>
-                                                <li><a href="category-page(list-view).html">list view</a></li>
-                                            </ul>
-                                        </li>
-                                        <!--SHOP-END-->
-                                        <!--product-meu start-->
-                                        <li class="mega" id="hover-cls"><a href="#">product
-                                        </a>
-                                            <ul class="mega-menu full-mega-menu ">
-                                                <li>
-                                                    <div class="container">
-                                                        <div class="row">
-                                                            <div class="col mega-box">
-                                                                <div class="link-section">
-                                                                    <div class="menu-title">
-                                                                        <h5>sidebar</h5>
-                                                                    </div>
-                                                                    <div class="menu-content">
-                                                                        <ul>
-                                                                            <li><a href="product-page(left-sidebar).html">left sidebar</a></li>
-                                                                            <li><a href="product-page(right-sidebar).html">right sidebar</a></li>
-                                                                            <li><a href="product-page(no-sidebar).html">non sidebar</a></li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col mega-box">
-                                                                <div class="link-section">
-                                                                    <div class="menu-title">
-                                                                        <h5>bonus layout</h5>
-                                                                    </div>
-                                                                    <div class="menu-content">
-                                                                        <ul>
-                                                                            <li><a href="product-page(bundle).html">bundle</a></li>
-                                                                            <li><a href="product-page(image-swatch).html">image swatch</a></li>
-                                                                            <li><a href="product-page(vertical-tab).html">vertical tab</a></li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col mega-box">
-                                                                <div class="link-section">
-                                                                    <div class="menu-title">
-                                                                        <h5>product layout <span class="new-tag">new</span></h5>
-                                                                    </div>
-                                                                    <div class="menu-content">
-                                                                        <ul>
-                                                                            <li><a href="product-page(4-image).html">4 image </a></li>
-                                                                            <li><a href="product-page(sticky).html">sticky</a></li>
-                                                                            <li><a href="product-page(accordian).html">accordian</a></li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col mega-box">
-                                                                <div class="link-section">
-                                                                    <div class="menu-title">
-                                                                        <h5>thumbnail image</h5>
-                                                                    </div>
-                                                                    <div class="menu-content">
-                                                                        <ul>
-                                                                            <li><a href="product-page(left-image).html">left image</a></li>
-                                                                            <li><a href="product-page(right-image).html">right image</a></li>
-                                                                            <li><a href="product-page(image-outside).html">image outside</a></li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col mega-box">
-                                                                <div class="link-section">
-                                                                    <div class="menu-title">
-                                                                        <h5>3 column</h5>
-                                                                    </div>
-                                                                    <div class="menu-content">
-                                                                        <ul>
-                                                                            <li><a href="product-page(3-col-left).html">thumbnail left</a></li>
-                                                                            <li><a href="product-page(3-col-right).html">thumbnail right</a></li>
-                                                                            <li><a href="product-page(3-column).html">thubnail bottom</a></li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col mega-box">
-                                                                <div class="link-section">
-                                                                    <div class="menu-title">
-                                                                        <h5>product element</h5>
-                                                                    </div>
-                                                                    <div class="menu-content">
-                                                                        <ul>
-                                                                            <li><a href="element-productbox.html">product box</a></li>
-                                                                            <li><a href="element-product-slider.html">product slider</a></li>
-                                                                            <li><a href="element-no_slider.html">no slider</a></li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="row menu-banner">
-                                                            <div class="col-lg-6">
-                                                                <div>
-                                                                    <img src="/assets/images/1_menu-banner1.jpg" alt="menu-banner" class="img-fluid">
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-lg-6">
-                                                                <div>
-                                                                    <img src="/assets/images/1_menu-banner2.jpg" alt="menu-banner" class="img-fluid">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <!--product-meu end-->
+                                        <li><a href="#">Products</a> </li>
+                                         <li><a href="#">Categories</a> </li>
+                                        
 
-                                        <!--mega-meu start-->
-                                        <li class="mega" >
-                                            <a href="#">features</a>
-                                            <ul class="mega-menu full-mega-menu ratio_landscape">
-                                                <li>
-                                                    <div class="container">
-                                                        <div class="row">
-                                                            <div class="col mega-box">
-                                                                <div class="link-section">
-                                                                    <div class="menu-title">
-                                                                        <h5>portfolio</h5></div>
-                                                                    <div class="menu-content">
-                                                                        <ul>
-                                                                            <li><a href="grid-2-col.html">portfolio grid 2</a></li>
-                                                                            <li><a href="grid-3-col.html">portfolio grid 3</a></li>
-                                                                            <li><a href="grid-4-col.html">portfolio grid 4</a></li>
-                                                                            <li><a href="grid-6-col.html">portfolio grid 6</a></li>
-                                                                            <li><a href="masonary-2-grid.html">mesonary grid 2</a></li>
-                                                                            <li><a href="masonary-3-grid.html">mesonary grid 3</a></li>
-                                                                            <li><a href="masonary-4-grid.html">mesonary grid 4</a></li>
-                                                                            <li><a href="masonary-fullwidth.html">mesonary full width</a></li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col mega-box">
-                                                                <div class="link-section">
-                                                                    <div class="menu-title">
-                                                                        <h5>add to cart</h5></div>
-                                                                    <div class="menu-content">
-                                                                        <ul>
-                                                                            <li><a href="layout-5.html">cart modal popup</a></li>
-                                                                            <li><a href="layout-6.html">qty. counter </a></li>
-                                                                            <li><a href="index.html">cart top</a></li>
-                                                                            <li><a href="layout-2.html">cart bottom</a></li>
-                                                                            <li><a href="layout-3.html">cart left</a></li>
-                                                                            <li><a href="layout-4.html">cart right</a></li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col mega-box">
-                                                                <div class="link-section">
-                                                                    <div class="menu-title">
-                                                                        <h5>shortcodes</h5></div>
-                                                                    <div class="menu-content">
-                                                                        <ul>
-                                                                            <li><a href="element-title.html">title</a></li>
-                                                                            <li><a href="element-banner.html">collection banner</a></li>
-                                                                            <li><a href="element-slider.html">home slider</a></li>
-                                                                            <li><a href="element-category.html">category</a></li>
-                                                                            <li><a href="element-service.html">service</a></li>
-                                                                            <li><a href="element-image-ratio.html">image size ratio</a></li>
-                                                                            <li><a href="element-tab.html">tab</a></li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col mega-box">
-                                                                <div class="link-section">
-                                                                    <div class="menu-title">
-                                                                        <h5>email template</h5>
-                                                                    </div>
-                                                                    <div class="menu-content">
-                                                                        <ul>
-                                                                            <li><a href="email-order-success.html">order success</a></li>
-                                                                            <li><a href="email-order-success-tow.html">order success 2</a></li>
-                                                                            <li><a href="email-template.html">email template</a></li>
-                                                                            <li><a href="email-template-tow.html">email template 2</a></li>
-                                                                        </ul>
-                                                                    </div>
-                                                                    <div class="menu-title menu-secon-title">
-                                                                        <h5>Easy to use</h5>
-                                                                    </div>
-                                                                    <div class="menu-content">
-                                                                        <ul>
-                                                                            <li><a href="button.html">element button</a></li>
-                                                                            <li><a href="instagram.html">element instagram</a></li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col mega-box product ">
-                                                                <div class="mega-img">
-                                                                    <img src="/assets/images/mega-banner-2.jpg" alt="menu-banner" class="img-fluid">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <!--mega-meu end-->
+                                       
+                                       
+                                       
 
                                         <!--pages-meu start-->
-                                        <li><a href="#">pages</a>
-                                            <ul>
-                                                <li>
-                                                    <a href="#">account</a>
-                                                    <ul>
-                                                        <li><a href="wishlist.html">wishlist</a></li>
-                                                        <li><a href="cart.html">cart</a></li>
-                                                        <li><a href="dashboard.html">Dashboard</a></li>
-                                                        <li><a href="login.html">login</a></li>
-                                                        <li><a href="register.html">register</a></li>
-                                                        <li><a href="contact.html">contact</a></li>
-                                                        <li><a href="forget-pwd.html">forget password</a></li>
-                                                        <li><a href="profile.html">profile </a></li>
-                                                        <li><a href="checkout.html">checkout</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="about-page.html">about us</a></li>
-                                                <li><a href="search.html">search</a></li>
-                                                <li><a href="typography.html">typography </a></li>
-                                                <li><a href="review.html">review </a></li>
-                                                <li><a href="order-success.html">order success</a></li>
-                                                <li><a href="order-history.html">order history</a></li>
-                                                <li>
-                                                    <a href="#">compare</a>
-                                                    <ul>
-                                                        <li><a href="compare.html">compare</a></li>
-                                                        <li><a href="compare-2.html">compare-2</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="collection.html">collection</a></li>
-                                                <li><a href="look-book.html">lookbook</a></li>
-                                                <li><a href="404.html">404</a></li>
-                                                <li><a href="coming-soon.html">coming soon </a></li>
-                                                <li><a href="faq.html">FAQ</a></li>
-                                            </ul>
+                                        <li>
+                                            <a href="#">FAQ</a>
+                                            
                                         </li>
                                         <!--product-end end-->
 
