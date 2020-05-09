@@ -8,6 +8,9 @@ import Register from './views/Register.vue'
 import PasswordReset from './views/PasswordReset.vue'
 import OrderSuccess from './views/OrderSuccess.vue'
 import Cart from './views/Cart.vue'
+import Category from './views/Category.vue'
+import Product from './views/Product.vue'
+import Wishlist from './views/Wishlist.vue'
 
 Vue.use(Router)
 
@@ -55,6 +58,22 @@ export default new Router({
       name: 'cart',
       component: Cart
     },
+    {
+      path: '/category',
+      name: 'category',
+      component: Category
+    },
+    {
+      path: '/product',
+      name: 'product',
+      component: Product
+    },
+    {
+      path: '/wishlist',
+      name: 'wishlist',
+      component: Wishlist
+    },
+    
     {
       path: '/about',
       name: 'about',

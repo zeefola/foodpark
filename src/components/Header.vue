@@ -185,13 +185,13 @@
                         <div class="category-left">
                             <div class=" nav-block">
                                 <div class="nav-left">
-                                    <nav class="navbar" data-toggle="collapse" data-target="#navbarToggleExternalContent">
+                                    <nav class="navbar collapsed" data-toggle="collapse" data-target="#navbarToggleExternalContent">
                                         <button class="navbar-toggler" type="button">
                                             <span class="navbar-icon"><i class="fa fa-arrow-down"></i></span>
                                         </button>
                                         <h5 class="mb-0 ml-3 text-white title-font">Shop by category</h5>
                                     </nav>
-                                    <div class="collapse show nav-desk" id="navbarToggleExternalContent">
+                                    <div class="collapse nav-desk" id="navbarToggleExternalContent">
                                         <ul class="nav-cat title-font mt-0">
                                             <li> <img src="/assets/images/layout-1/nav-img/01.png" alt="category-product"> <a href="#">foodgrains</a></li>
                                             <li> <img src="/assets/images/layout-1/nav-img/02.png" alt="category-product"> <a href="#">bakery</a></li>
