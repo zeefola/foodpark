@@ -11,6 +11,7 @@ import Cart from './views/Cart.vue'
 import Category from './views/Category.vue'
 import Product from './views/Product.vue'
 import Wishlist from './views/Wishlist.vue'
+import Review from './views/Review.vue'
 
 Vue.use(Router)
 
@@ -72,6 +73,11 @@ export default new Router({
       path: '/wishlist',
       name: 'wishlist',
       component: Wishlist
+    },
+    {
+      path: '/review',
+      name: 'review',
+      component: Review
     },
     
     {

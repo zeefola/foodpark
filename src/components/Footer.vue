@@ -84,6 +84,7 @@
                                                                 <router-link to="/register" tag="li"><a> Register </a></router-link>
                                                                 <router-link to="/login" tag="li"><a> Login </a></router-link>
                                                                 <router-link to="/faq" tag="li"> <a> FAQ </a></router-link>
+                                                                 <router-link to="/review" tag="li"> <a> review </a></router-link>
                                                                 
                                                             </ul>
                                                         </div>
