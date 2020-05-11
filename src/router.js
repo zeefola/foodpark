@@ -12,6 +12,9 @@ import Category from './views/Category.vue'
 import Product from './views/Product.vue'
 import Wishlist from './views/Wishlist.vue'
 import Review from './views/Review.vue'
+import StoreLocation from './views/StoreLocation.vue'
+import TermsAndCondition from './views/TermsAndCondition.vue'
+
 
 Vue.use(Router)
 
@@ -78,6 +81,16 @@ export default new Router({
       path: '/review',
       name: 'review',
       component: Review
+    },
+    {
+      path: '/store-locations',
+      name: 'storelocation',
+      component: StoreLocation
+    },
+    {
+      path: '/terms-and-conditions',
+      name: 'termsandconditions',
+      component: TermsAndCondition
     },
     
     {

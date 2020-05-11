@@ -90,7 +90,7 @@
                             </div>
                             <div class="brand-logo">
                                 <router-link to="/" >
-                                      <img src="/assets/images/layout-6/logo/logo.png" class="img-fluid  " alt="logo-header">
+                                      <img src="/img/foodpark.png" class="img-fluid  " alt="logo-header">
                                 </router-link>
                                 
                             </div>
@@ -129,7 +129,7 @@
 
                                         <!--blog-meu start-->
                                         <li>
-                                            <a href="#">blog</a>
+                                            <a href="https://blog.foodpark.ng">blog</a>
                                            
                                         </li>
                                         <!--blog-meu end-->
@@ -237,7 +237,7 @@
                             <div class="contact-block">
                                 <div>
                                     <i class="fa fa-volume-control-phone"></i>
-                                    <span>call us<span>123-456-76890</span></span>
+                                    <span>call us<span>+234-906-282-2258</span></span>
                                 </div>
                             </div>
                             <div class="btn-group">

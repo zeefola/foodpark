@@ -32,8 +32,8 @@
     <div class="tab-product-main">
         <div class="tab-prodcut-contain">
             <ul class="tabs tab-title">
-                <li class="current"><a href="tab-1">fashion</a></li>
-                <li class=""><a href="tab-2">vission</a></li>
+                <li class="current"><a href="tab-1">mission</a></li>
+                <li class=""><a href="tab-2">vision</a></li>
                 <li class=""><a href="tab-3">philosophy</a></li>
                 <!-- <li class=""><a href="tab-4">sports</a></li> -->
             </ul>
@@ -1861,6 +1861,8 @@
     </div>
 </section>
 <!-- product tab end -->
+
+
 
 
   </div>

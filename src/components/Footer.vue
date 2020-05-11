@@ -10,7 +10,7 @@
                         <div class="col-lg-4 col-md-12 ">
                             <div class="footer-left">
                                 <div class="footer-logo">
-                                    <img src="/assets/images/layout-6/logo/logo.png" class="img-fluid  " alt="logo">
+                                    <img src="/img/foodpark.png" class="img-fluid  " alt="logo">
                                 </div>
                                 <div class="footer-detail">
                                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,</p>
@@ -97,9 +97,9 @@
                                                         </div>
                                                         <div class="footer-contant">
                                                             <ul class="contact-list">
-                                                                <li><i class="fa fa-map-marker"></i><span>big deal store demo store <br> <span> india-3654123</span></span></li>
-                                                                <li><i class="fa fa-phone"></i><span>call us: 123-456-7898</span></li>
-                                                                <li><i class="fa fa-envelope-o"></i><span>email us: support@bigdeal.com</span></li>
+                                                                <li><i class="fa fa-map-marker"></i><span>20, Oba Ogunnusi Road, Akiode Bus-stop, Ojodu Berger, Lagos </span></li>
+                                                                <li><i class="fa fa-phone"></i><span>call us: +234-904-604-0991</span></li>
+                                                                <li><i class="fa fa-envelope-o"></i><span>email us: enquiry@foodpark.ng</span></li>
                                                                 
                                                             </ul>
                                                         </div>
@@ -132,11 +132,11 @@
                         <div class="sosiyal-block" >
                             <h6>follow us</h6>
                             <ul class="sosiyal">
-                                <li><a href="#"><i class="fa fa-facebook" ></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus" ></i></a></li>
+                                <li><a href="https://www.facebook.com/Foodpark-108913344131907/"><i class="fa fa-facebook" ></i></a></li>
+                                <!-- <li><a href="#"><i class="fa fa-google-plus" ></i></a></li> -->
                                 <li><a href="#"><i class="fa fa-twitter" ></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram" ></i></a></li>
-                                <li><a href="#"><i class="fa fa-rss" ></i></a></li>
+                                <li><a href="https://www.instagram.com/foodpark__/"><i class="fa fa-instagram" ></i></a></li>
+                                <!-- <li><a href="#"><i class="fa fa-rss" ></i></a></li> -->
                             </ul>
                         </div>
                     </div>
@@ -149,7 +149,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="sub-footer-contain">
-                        <p><span>2018 - 19 </span>copy right by themeforest powered by pixel strap</p>
+                        <p>Copyright © 2020 Food Park All Right Reserved</p>
                     </div>
                 </div>
             </div>
